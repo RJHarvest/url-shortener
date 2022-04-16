@@ -25,8 +25,6 @@ func main() {
     handler.HandleShortUrlRedirect(c)
   })
 
-  fmt.Println(os.Getenv("PORT"))
-
   store.InitializeStore()
 
   err := r.Run(":5000")
