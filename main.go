@@ -2,7 +2,6 @@ package main
 
 import (
   "fmt"
-  "os"
   "github.com/RJHarvest/url-shortener/handler"
   "github.com/RJHarvest/url-shortener/store"
   "github.com/gin-gonic/gin"
